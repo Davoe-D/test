@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,800;1,800;1,900&family=Unbounded:wght@200&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+
+    
+    <section class="hero">
+        <div class="hero-text">
+            <h5></h5>
+            <h4>Be Safer!</h4>
+            <h1>SAVER</h1>
+            <p>Sell your gaming account in 10 minutes.<br> Secure your spot in the waitlist and be the first to explore our innovative platform!</p>
+            <img src="images/rocket.png" class="rocket">
+            <!-- <a href="#">WAITLIST</a>
+            <a href="#" class="ctaa"><i class="ri-play-fill"></i>MARKETPLACE</a> -->
+        </div>
+        <div class="hero-img">
+            <img src="images/PUBG FINAL.png">
+            <div class="form">
+                <input type="email" name="" id="" placeholder="enter your email address">
+                <button type="submit" class="btn1" onclick="openPopup()">Join the waitlist</button>
+            </div>
+
+        </div>
+    </section>
+    <div class="icons">
+        <a href="https://instagram.com/saverissafer?igshid=MmIzYWVlNDQ5Yg=="><i class="ri-instagram-line"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100094032737724&mibextid=LQQJ4d"><i class="ri-facebook-fill"></i></a>
+        <a href="https://www.linkedin.com/company/saver-is-safer/"><i class="ri-linkedin-box-fill"></i></a>
+    </div>
+
+    <div class="container">
+        <div class="popup" id="popup">
+            <img src="images/404 tick.png">
+            <h2>Thank You!</h2>
+            <p>Your email has been sucessfully submitted.</p>
+            <button type="button" onclick="closePopup()">OK</button>
+        </div>
+    </div>
+
+    <div class="iconsmobile">
+        <a href="https://instagram.com/saverissafer?igshid=MmIzYWVlNDQ5Yg=="><i class="ri-instagram-line"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100094032737724&mibextid=LQQJ4d"><i class="ri-facebook-fill"></i></a>
+        <a href="https://www.linkedin.com/company/saver-is-safer/"><i class="ri-linkedin-box-fill"></i></a>
+    </div>
+
+<script>
+    let popup = document.getElementById("popup");
+
+    function openPopup(){
+        popup.classList.add("open-popup");
+    }
+    function closePopup(){
+        popup.classList.remove("open-popup");
+    }
+</script> 
+
+    <!-- <div class="scroll-down">
+        <a href="#"><i class="ri-arrow-down-s-fill"></i></a>
+    </div> -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
